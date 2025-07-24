@@ -16,11 +16,12 @@
 /* discount styles */
 .discount-slides{
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
     "one three three"
     "two three three";
-    gap: 28px;
+    justify-items: center;
+    gap: 20px;
 }
 .discount-1{
     grid-area: one;
