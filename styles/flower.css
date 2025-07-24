@@ -122,4 +122,28 @@
     .discount-3 h3{
         font-size: 20px;
     }
+    /* news-letter styles */
+    .news-letter h1{
+        font-size: 30px;
+    }
+    .news-input{
+        margin: 0;
+    }
+    /* footer */
+    .footer{
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+        margin-left: 20px;
+    }
+    .footer-logo{
+        width: 100%;
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+    }
+    .footer-link{
+        justify-content: start;
+        align-items: start;
+    }
 }
