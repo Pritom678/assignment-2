@@ -13,7 +13,28 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+/* discount styles */
+.discount-slides{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "one three three"
+    "two three three";
+    gap: 28px;
+}
+.discount-1{
+    grid-area: one;
+    padding: 65px 50px;
+}
+.discount-2{
+    grid-area: two;
+    padding: 65px 50px;
+}
+.discount-3{
+    grid-area: three;
+    padding: 65px 50px;
+    
+}
 @media screen and (max-width: 576px) {
     .hide{
     display: none;
@@ -89,5 +110,16 @@
     .third-content li{
         font-size: 18px;
     }
-    
+    /* discount */
+    .discount-slides{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .discount-3 h3{
+        font-size: 20px;
+    }
 }
