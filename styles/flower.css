@@ -1,1 +1,69 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+/* font styles */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@media screen and (max-width: 576px) {
+    .hide{
+    display: none;
+    }
+    .logo img{
+        width: 70%;
+    }
+    /* first */
+    .first{
+        flex-direction: column-reverse;
+        align-items: start;
+        margin-left: 20px;
+    }
+    .first-title{
+        width: 75%;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .first-title h1{
+        font-size: 24px;
+        font-weight: bolder;
+        text-align: start;
+        
+    }
+    .first-title p{
+        font-size: 14px;
+        text-align: start;
+        
+    }
+    /* second */
+    .slides{
+        
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .second-title{
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .second-title h1{
+        font-size: 24px;
+        font-weight: bolder;
+        text-align: center;
+        
+    }
+    .second-title p{
+        font-size: 14px;
+        text-align: center;
+        
+    }
+}
