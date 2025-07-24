@@ -65,4 +65,29 @@
         width: 90%;
         
     }
+    /* third */
+    .third{
+        flex-direction: column;
+       
+        gap: 30px;
+    }
+    .third-img{
+        width: 97%;
+    }
+    .third-content{
+        width: 100%;
+        margin-left: 20px;
+        
+    }
+    #trusted{
+        display: none;
+    }
+    .third-content ul{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .third-content li{
+        font-size: 18px;
+    }
+    
 }
