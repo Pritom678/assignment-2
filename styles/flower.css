@@ -4,13 +4,11 @@
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
 }
 .noto-serif-font {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -30,7 +28,7 @@
         margin-left: 20px;
     }
     .first-title{
-        width: 75%;
+        width: 90%;
         margin-top: 20px;
         gap: 10px;
     }
@@ -64,6 +62,7 @@
     .second-title p{
         font-size: 14px;
         text-align: center;
+        width: 90%;
         
     }
 }
